@@ -1,15 +1,10 @@
-// Put any @imports here
-// See Readme for a list of supported ones
-
 body {
-  background: #A1A5A7;
-}
+  background: #A1A5A7; }
 
 .container {
   width: 400px;
   margin: 100px auto;
-  text-align: center;
-}
+  text-align: center; }
 
 button {
   border: none;
@@ -20,51 +15,50 @@ button {
   color: #282828;
   font-size: 1em;
   text-align: center;
-  color: white;
-}
+  color: white; }
 
 .start {
   width: 40px;
-  height: 40px;
-}
+  height: 40px; }
+
 .size1 {
   width: 50px;
-  height: 50px;
-}
+  height: 50px; }
+
 .size2 {
   width: 60px;
-  height: 60px;
-}
+  height: 60px; }
+
 .size3 {
   width: 70px;
-  height: 70px;
-}
+  height: 70px; }
+
 .size4 {
   width: 80px;
-  height: 80px;
-}
+  height: 80px; }
+
 .size5 {
   width: 90px;
-  height: 90px;
-}
+  height: 90px; }
+
 .size6 {
   width: 100px;
-  height: 100px;
-}
+  height: 100px; }
+
 .size7 {
   width: 110px;
-  height: 110px;
-}
+  height: 110px; }
+
 .size8 {
   width: 120px;
-  height: 120px;
-}
+  height: 120px; }
+
 .size9 {
   width: 130px;
-  height: 130px;
-}
+  height: 130px; }
+
 .size10 {
   width: 140px;
-  height: 140px;
-}
+  height: 140px; }
 
+/*# sourceMappingURL=main.css.map */
