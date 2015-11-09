@@ -4,13 +4,15 @@ let MyController = function ($scope) {
 
   $scope.number = 0;
 
-  // $scope.string = 'likes';
+  $scope.string = 'likes';
 
   $scope.addLike = function () {
 
     $scope.number = $scope.number + 1;
     if ($scope.number === 1) {
-      // $scope.string = 'like';
+      $scope.string = 'like';
+    } if (1 < $scope.number && $scope.number < 4) {
+      $scope.string = 'likes';
       $('#button').removeClass('start').addClass('size1');
     } if (4 < $scope.number && $scope.number < 9) {
       $('#button').removeClass('size1').addClass('size2');
@@ -30,6 +32,8 @@ let MyController = function ($scope) {
       $('#button').removeClass('size8').addClass('size9');
     } if (44 < $scope.number && $scope.number < 49) {
       $('#button').removeClass('size9').addClass('size10');
+    } if (49 < $scope.number && $scope.number < 100) {
+      $('#button').removeClass('size10').addClass('size11');
     }
   };
 
