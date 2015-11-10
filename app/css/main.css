@@ -1,5 +1,8 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
 body {
-  background: #A1A5A7; }
+  background: #E3EBF4; }
 
 .container {
   width: 400px;
@@ -9,14 +12,16 @@ body {
 button {
   border: none;
   outline: none;
-  background: black;
-  color: #282828;
+  background: #404040;
+  border-radius: 5%;
   font-size: 1em;
   text-align: center;
-  color: white; }
+  color: white;
+  box-shadow: 0px 5px #282828; }
 
 button:active {
-  box-shadow: 0px 0px 5px black; }
+  margin-top: 5px;
+  box-shadow: 0px 0px 0px #282828; }
 
 .start {
   width: 150px;
